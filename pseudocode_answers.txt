@@ -1,0 +1,40 @@
+Short Answer
+1. Programmers use pseudocode so that programmers who have their own favorite programming language can develop algorithms together with this human readable informal language.
+
+2. If you run pseudocode on a computer, you would get an error.
+
+Programming Assignment
+1.
+INPUT first number
+INPUT second number
+IF first number is greater than second number THEN
+  PRINT first number
+ELSE IF second number is greater than first number THEN
+  PRINT second number
+ELSE
+  PRINT "Both nmumbers are the same"
+END IF
+
+2.
+INIT i to 1
+WHILE i is not 101
+  PRINT i
+  ADD 1 to i
+END WHILE
+
+3.
+INPUT targetName string
+FOR each entry in the phoneBook
+  IF the name of entry is equal to targetName THEN
+    RETURN the number of entry
+  END IF
+END FOR
+
+4.
+function searchPhoneBook( targetName ) {
+  phoneBook.map(function(entry) {
+    if (entry.name === targetName) {
+      return entry.number;
+    }
+  });
+}
